@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		A8DF6FC829CD99E100DC392F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DF6FC729CD99E100DC392F /* AppDelegate.swift */; };
 		A8DF6FCA29CD99E100DC392F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DF6FC929CD99E100DC392F /* SceneDelegate.swift */; };
-		A8DF6FCC29CD99E100DC392F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DF6FCB29CD99E100DC392F /* ViewController.swift */; };
 		A8DF6FCF29CD99E100DC392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FCD29CD99E100DC392F /* Main.storyboard */; };
 		A8DF6FD129CD99E200DC392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FD029CD99E200DC392F /* Assets.xcassets */; };
 		A8DF6FD429CD99E200DC392F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FD229CD99E200DC392F /* LaunchScreen.storyboard */; };
+		A8DF6FDC29CD9A7400DC392F /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DF6FDB29CD9A7400DC392F /* MusicPlayerViewController.swift */; };
+		A8DF6FE029CDACB600DC392F /* City of Stars歌曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FDD29CDACB600DC392F /* City of Stars歌曲.mp3 */; };
+		A8DF6FE129CDACB600DC392F /* 小宇歌曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FDE29CDACB600DC392F /* 小宇歌曲.mp3 */; };
+		A8DF6FE229CDACB600DC392F /* 後會無期歌曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8DF6FDF29CDACB600DC392F /* 後會無期歌曲.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A8DF6FC429CD99E100DC392F /* Copy Model iOS Music App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Model iOS Music App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DF6FC729CD99E100DC392F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8DF6FC929CD99E100DC392F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8DF6FCB29CD99E100DC392F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8DF6FCE29CD99E100DC392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8DF6FD029CD99E200DC392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8DF6FD329CD99E200DC392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8DF6FD529CD99E200DC392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8DF6FDB29CD9A7400DC392F /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		A8DF6FDD29CDACB600DC392F /* City of Stars歌曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "City of Stars歌曲.mp3"; sourceTree = "<group>"; };
+		A8DF6FDE29CDACB600DC392F /* 小宇歌曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小宇歌曲.mp3"; sourceTree = "<group>"; };
+		A8DF6FDF29CDACB600DC392F /* 後會無期歌曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "後會無期歌曲.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				A8DF6FC729CD99E100DC392F /* AppDelegate.swift */,
 				A8DF6FC929CD99E100DC392F /* SceneDelegate.swift */,
-				A8DF6FCB29CD99E100DC392F /* ViewController.swift */,
+				A8DF6FDB29CD9A7400DC392F /* MusicPlayerViewController.swift */,
 				A8DF6FCD29CD99E100DC392F /* Main.storyboard */,
 				A8DF6FD029CD99E200DC392F /* Assets.xcassets */,
 				A8DF6FD229CD99E200DC392F /* LaunchScreen.storyboard */,
 				A8DF6FD529CD99E200DC392F /* Info.plist */,
+				A8DF6FDE29CDACB600DC392F /* 小宇歌曲.mp3 */,
+				A8DF6FDF29CDACB600DC392F /* 後會無期歌曲.mp3 */,
+				A8DF6FDD29CDACB600DC392F /* City of Stars歌曲.mp3 */,
 			);
 			path = "Copy Model iOS Music App";
 			sourceTree = "<group>";
@@ -126,7 +135,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8DF6FD429CD99E200DC392F /* LaunchScreen.storyboard in Resources */,
+				A8DF6FE229CDACB600DC392F /* 後會無期歌曲.mp3 in Resources */,
+				A8DF6FE129CDACB600DC392F /* 小宇歌曲.mp3 in Resources */,
 				A8DF6FD129CD99E200DC392F /* Assets.xcassets in Resources */,
+				A8DF6FE029CDACB600DC392F /* City of Stars歌曲.mp3 in Resources */,
 				A8DF6FCF29CD99E100DC392F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8DF6FCC29CD99E100DC392F /* ViewController.swift in Sources */,
 				A8DF6FC829CD99E100DC392F /* AppDelegate.swift in Sources */,
+				A8DF6FDC29CD9A7400DC392F /* MusicPlayerViewController.swift in Sources */,
 				A8DF6FCA29CD99E100DC392F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
